@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 1
-description: with background image
+title: CaReAQA: A Cardiac and Respiratory Audio Question Answering Model for Open-Ended Diagnostic Reasoning
+description: 
 img: assets/img/12.jpg
 importance: 1
 category: work
