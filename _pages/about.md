@@ -5,7 +5,6 @@ permalink: /
 subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
-  name: Tsai-Ning Wang
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
