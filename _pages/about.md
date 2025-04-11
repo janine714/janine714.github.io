@@ -28,4 +28,4 @@ latest_posts:
 
 I am a PhD student at Eindhoven University of Technology. My research focuses on the intersection of Artificial Intelligence and audio, with an emphasis on applications in healthcare. I am particularly interested in how multimodal systems can enhance the way we interact with and interpret medical information.
 
-I hold a master’s degree in Language Technology from Uppsala University, where I developed a strong foundation in natural language processing and machine learning. My current work builds on that background by exploring intelligent systems that combine language and sound to support innovation in health.
+I hold a master’s degree in Language Technology from Uppsala University, where I developed a strong foundation in natural language processing and machine learning. My current work builds on that background by exploring intelligent systems that combine language and sound to support innovation in health. ✨🤖🩺
