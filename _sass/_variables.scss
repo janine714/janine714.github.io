@@ -2,8 +2,10 @@
  * Variables used throughout the theme.
  * To adjust anything, simply edit the variables below and rebuild the theme.
  ******************************************************************************/
+$color-scheme: dark;
 
 @use "sass:color";
+
 
 // Colors
 $red-color: #ff3636 !default;
