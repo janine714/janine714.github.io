@@ -451,8 +451,8 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-",
-          title: '',
+          section: "News",},{id: "projects-careaqa-a-cardiac-and-respiratory-audio-question-answering-model-for-open-ended-diagnostic-reasoning",
+          title: 'CaReAQA: A Cardiac and Respiratory Audio Question Answering Model for Open-Ended Diagnostic Reasoning...',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
