@@ -10,7 +10,7 @@ related_publications: true
 
 CaReAQA is a novel question-answering model that enables large language models to reason over auscultation audio. It tackles the complex task of interpreting real-world heart and lung sounds and generating diagnostic responses to open-ended clinical questions. Unlike traditional diagnostic classifiers or rule-based expert systems, CaReAQA is designed to handle free-form queries in a flexible and interpretable manner, closely mirroring human diagnostic reasoning.
 
-We introduce a benchmark comprising over 4,000 real-world auscultation recordings paired with rich annotations and diverse question types. To enable reasoning over audio signals, we align audio representations with text through a shared latent space and generate answers using a language model conditioned on both audio and question embeddings.
+We introduce a benchmark comprising real-world auscultation recordings paired with rich annotations and diverse question types. To enable reasoning over audio signals, we align audio representations with text through a shared latent space and generate answers using a language model conditioned on both audio and question embeddings.
 
 Our model demonstrates strong performance across multiple tasks, including yes/no questions, symptom identification, and open-form diagnostic explanations, showcasing its potential for audio-based clinical decision support.
 
@@ -25,14 +25,22 @@ Our model demonstrates strong performance across multiple tasks, including yes/n
 </div>
 
 <div class="row mt-4">
-  <div class="col-sm-6 mt-3">
-    {% include figure.liquid path="assets/img/examples.png" title="Example of question types and answers." class="img-fluid rounded z-depth-1" %}
+  <div class="col-sm-12">
+    {% include figure.liquid path="assets/img/examples.png" title="Example question types and model responses." class="img-fluid rounded z-depth-1" %}
   </div>
-  <div class="col-sm-6 mt-3">
+</div>
+
+<div class="caption">
+  Example question types paired with answers.
+</div>
+
+<div class="row mt-4">
+  <div class="col-sm-12">
     {% include figure.liquid path="assets/img/eval.png" title="Performance across multiple QA tasks." class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 
 <div class="caption">
-  Left: Examples of diverse clinical questions and model answers. Right: Quantitative evaluation of CaReAQA's performance across various auscultation-based QA tasks.
+  Evaluation results showing CaReAQA’s performance on open-ended audio task.
 </div>
+
