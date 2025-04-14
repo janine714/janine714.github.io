@@ -1,82 +1,38 @@
 ---
 layout: page
 title: "CaReAQA: A Cardiac and Respiratory Audio Question Answering Model for Open-Ended Diagnostic Reasoning"
-description: 
-img: assets/img/12.jpg
+description: "A question-answering model designed to enable large language models to perform diagnostic reasoning over auscultation audio recordings from real-world clinical data."
+img: assets/img/careaqa1.jpg
 importance: 1
 category: work
 related_publications: true
 ---
 
+CaReAQA is a novel question-answering model that enables large language models to reason over auscultation audio. It tackles the complex task of interpreting real-world heart and lung sounds and generating diagnostic responses to open-ended clinical questions. Unlike traditional diagnostic classifiers or rule-based expert systems, CaReAQA is designed to handle free-form queries in a flexible and interpretable manner, closely mirroring human diagnostic reasoning.
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+We introduce a benchmark comprising over 4,000 real-world auscultation recordings paired with rich annotations and diverse question types. To enable reasoning over audio signals, we align audio representations with text through a shared latent space and generate answers using a language model conditioned on both audio and question embeddings.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Our model demonstrates strong performance across multiple tasks, including yes/no questions, symptom identification, and open-form diagnostic explanations, showcasing its potential for audio-based clinical decision support.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row mt-4">
+  <div class="col-sm-12">
+    {% include figure.liquid path="assets/img/careaqa.jpg" title="Overview of the CaReAQA framework." class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
-```
 
-{% endraw %}
+<div class="caption">
+  Overview of the CaReAQA model pipeline. The system encodes auscultation audio and a clinical question into a shared latent space, which is then decoded by a language model to produce free-form answers.
+</div>
+
+<div class="row mt-4">
+  <div class="col-sm-6 mt-3">
+    {% include figure.liquid path="assets/img/examples.png" title="Example of question types and answers." class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm-6 mt-3">
+    {% include figure.liquid path="assets/img/eval.png" title="Performance across multiple QA tasks." class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+
+<div class="caption">
+  Left: Examples of diverse clinical questions and model answers. Right: Quantitative evaluation of CaReAQA's performance across various auscultation-based QA tasks.
+</div>
