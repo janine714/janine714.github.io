@@ -432,7 +432,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-careaqa-a-cardiac-and-respiratory-audio-question-answering-model-for-open-ended-diagnostic-reasoning",
           title: 'CaReAQA: A Cardiac and Respiratory Audio Question Answering Model for Open-Ended Diagnostic Reasoning...',
-          description: "",
+          description: "A question-answering model designed to enable large language models to perform diagnostic reasoning over auscultation audio recordings from real-world clinical data.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-5",
