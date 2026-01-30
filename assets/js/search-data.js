@@ -420,10 +420,7 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "projects-careaqa-a-cardiac-and-respiratory-audio-question-answering-model-for-open-ended-diagnostic-reasoning",
+            },},{id: "projects-careaqa-a-cardiac-and-respiratory-audio-question-answering-model-for-open-ended-diagnostic-reasoning",
           title: 'CaReAQA: A Cardiac and Respiratory Audio Question Answering Model for Open-Ended Diagnostic Reasoning...',
           description: "A question-answering model designed to enable large language models to perform diagnostic reasoning over auscultation audio recordings from real-world clinical data.",
           section: "Projects",handler: () => {
