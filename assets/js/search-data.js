@@ -425,6 +425,11 @@ ninja.data = [{
           description: "A question-answering model designed to enable large language models to perform diagnostic reasoning over auscultation audio recordings from real-world clinical data.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
+            },},{id: "projects-acula-language-models-as-semantic-teachers",
+          title: 'AcuLa: Language Models as Semantic Teachers',
+          description: "A lightweight post-training audio–language alignment framework that injects clinical semantics into medical audio encoders.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_project/";
             },},{
         id: 'social-email',
         title: 'email',
