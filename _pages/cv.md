@@ -47,8 +47,7 @@ toc:
 - **Cloud:** GCP, Azure
 
 ## Events
-- Tsinghua Int’l Conference on Art and Design Education (Nov 2021) — Eco-art installation collaboration
-- Tsinghua Innovation Hackathon (Jul 2021) — Member of winning team (sustainable development)
+- Tsinghua Innovation Hackathon (Jul 2021) — Member of winning team 
 
 ---
 
