@@ -424,6 +424,11 @@ ninja.data = [{
           description: "A lightweight post-training audio–language alignment framework that injects clinical semantics into medical audio encoders.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
+            },},{id: "projects-triage-adaptive-test-time-scaling-for-zero-shot-respiratory-audio-classification",
+          title: 'TRIAGE: Adaptive Test-Time Scaling for Zero-Shot Respiratory Audio Classification',
+          description: "A zero-shot respiratory audio classification framework that adaptively allocates test-time compute to uncertain cases.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_project/";
             },},{
         id: 'social-email',
         title: 'email',
