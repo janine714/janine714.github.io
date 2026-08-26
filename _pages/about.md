@@ -5,7 +5,7 @@ permalink: /
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.PNG
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Department of Industrial Design</p>
